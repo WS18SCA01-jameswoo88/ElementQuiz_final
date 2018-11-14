@@ -14,6 +14,7 @@
 		3B264DCF219113DE00267B77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B264DCD219113DE00267B77 /* LaunchScreen.storyboard */; };
 		3B264DDA219113DE00267B77 /* ElementQuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B264DD9219113DE00267B77 /* ElementQuizTests.swift */; };
 		3B264DE5219113DE00267B77 /* ElementQuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B264DE4219113DE00267B77 /* ElementQuizUITests.swift */; };
+		3B405E0C2192718300E9CC0A /* ChemicalElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B405E0B2192718300E9CC0A /* ChemicalElement.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3B264DE0219113DE00267B77 /* ElementQuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElementQuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B264DE4219113DE00267B77 /* ElementQuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementQuizUITests.swift; sourceTree = "<group>"; };
 		3B264DE6219113DE00267B77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B405E0B2192718300E9CC0A /* ChemicalElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemicalElement.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				3B264DC4219113DE00267B77 /* AppDelegate.swift */,
 				3B264DC6219113DE00267B77 /* ViewController.swift */,
 				3B264DC8219113DE00267B77 /* Main.storyboard */,
+				3B405E0B2192718300E9CC0A /* ChemicalElement.swift */,
 				3B264DCB219113DE00267B77 /* Assets.xcassets */,
 				3B264DCD219113DE00267B77 /* LaunchScreen.storyboard */,
 				3B264DD0219113DE00267B77 /* Info.plist */,
@@ -258,6 +261,7 @@
 			files = (
 				3B264DC7219113DE00267B77 /* ViewController.swift in Sources */,
 				3B264DC5219113DE00267B77 /* AppDelegate.swift in Sources */,
+				3B405E0C2192718300E9CC0A /* ChemicalElement.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,7 +436,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ElementQuiz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -440,6 +445,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jameswchun.ElementQuiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -449,7 +455,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ElementQuiz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -457,6 +464,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jameswchun.ElementQuiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
